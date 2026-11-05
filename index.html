@@ -1,0 +1,916 @@
+<!-- <!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script src="atividade 1/script.js"></script>
+ 
+</head>
+<body>
+        <!-- <select name="values" id="lista">
+        <option value="a">A</option>
+        <option value="b">B</option>
+        <option value="c">C</option>
+    </select>
+
+    <input type="text"
+    id="inputTexto" -->
+      
+
+ 
+    <!-- <button id="meuBotao">Clique aqui</button>
+
+   
+</body>
+</html> --> 
+
+<!-- 
+ <!DOCTYPE html> 
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <title>Botão Click</title>
+</head>
+<body>
+
+    <button id="meuBotao">Clique aqui</button>
+
+    <script src="atividade 1/script.js"></script>
+
+</body>
+</html>  -->
+  
+
+
+
+<!-- 
+ <!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <title>Alterar cor de fundo</title>
+
+    <style>
+        body {
+            background-color: white;
+            text-align: center;
+            font-family: Arial, sans-serif;
+            transition: background-color 0.5s;
+        }
+
+        button {
+            padding: 12px 20px;
+            background-color: blue;
+            color: white;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+        }
+    </style>
+</head>
+<body>
+
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <title>Comparar números</title>
+</head>
+<body>
+
+    <h1>Comparador de números</h1>
+
+    <label>Primeiro número:</label>
+    <input type="number" id="numero1">
+
+    <br><br>
+
+    <label>Segundo número:</label>
+    <input type="number" id="numero2">
+
+    <br><br>
+
+    <button onclick="compararNumeros()">
+        Comparar
+    </button>
+
+    <h3 id="resultado"></h3>
+
+    <script>
+        <!-- function compararNumeros() { -->
+<!-- 
+            let num1 = Number(document.getElementById("numero1").value);
+            let num2 = Number(document.getElementById("numero2").value);
+
+            let resposta = document.getElementById("resultado");
+
+            if (num1 > num2) {
+                resposta.innerHTML = "O maior número é: " + num1;
+            } 
+            else if (num2 > num1) {
+                resposta.innerHTML = "O maior número é: " + num2;
+            } 
+            else {
+                resposta.innerHTML = "Os dois números são iguais!";
+            }
+        
+    </script>
+
+</body>
+</html> --> -->
+
+
+
+
+
+
+
+
+
+ <!-- <!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <title>Escolher cores</title>
+</head>
+<body>
+
+    <h2>Escolha uma cor:</h2>
+
+    <select id="cores" onchange="mudarCor()">
+        <option value="">Selecione</option>
+        <option value="red">Vermelho</option>
+        <option value="blue">Azul</option>
+        <option value="green">Verde</option>
+    </select>
+
+    <p id="texto">A cor deste texto vai mudar!</p>
+
+    <script>
+        function mudarCor() {
+            let cor = document.getElementById("cores").value;
+            let texto = document.getElementById("texto");
+
+            if (cor == "red") {
+                texto.style.color = "red";
+            } 
+            else if (cor == "blue") {
+                texto.style.color = "blue";
+            } 
+            else if (cor == "green") {
+                texto.style.color = "green";
+            }
+        }
+    </script>
+
+</body>
+</html>  -->
+
+
+
+<!-- <!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <title>Par ou Ímpar</title>
+
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            text-align: center;
+            margin-top: 100px;
+            background-color: #f0f0f0;
+        }
+
+        input {
+            padding: 10px;
+            border: 1px solid #ccc;
+            border-radius: 5px;
+        }
+
+        button {
+            padding: 10px 20px;
+            background-color: #007bff;
+            color: white;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+            font-size: 16px;
+        }
+
+        button:hover {
+            background-color: #0056b3;
+        }
+
+        p {
+            font-size: 20px;
+            font-weight: bold;
+        }
+    </style>
+</head>
+
+<body>
+
+    <h2>Verificador de Par ou Ímpar</h2>
+
+    <form onsubmit="verificarNumero(event)">
+        <input type="number" id="numero" placeholder="Digite um número" required>
+
+        <button type="submit">Verificar</button>
+    </form>
+
+    <p id="resultado"></p>
+
+    <script>
+        function verificarNumero(event) {
+            event.preventDefault();
+
+            let numero = Number(document.getElementById("numero").value);
+
+            if (numero % 2 == 0) {
+                document.getElementById("resultado").innerHTML = "O número é PAR!";
+            } else {
+                document.getElementById("resultado").innerHTML = "O número é ÍMPAR!";
+            }
+        }
+    </script>
+
+</body>
+</html> -->
+
+
+
+
+
+
+
+<!-- 
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <title>Escolher cores</title>
+</head>
+<body>
+
+    <h2>Escolha uma cor:</h2>
+
+    <select id="cores" onchange="mudarCor()">
+        <option value="">Selecione</option>
+        <option value="red">Vermelho</option>
+        <option value="blue">Azul</option>
+        <option value="green">Verde</option>
+    </select>
+
+    <p id="texto">A cor deste texto vai mudar!</p>
+
+    <script>
+        function mudarCor() {
+            let cor = document.getElementById("cores").value;
+            let texto = document.getElementById("texto");
+
+            if (cor == "red") {
+                texto.style.color = "red";
+            } 
+            else if (cor == "blue") {
+                texto.style.color = "blue";
+            } 
+            else if (cor == "green") {
+                texto.style.color = "green";
+            }
+        }
+    </script>
+
+</body>
+</html> 
+ -->
+
+
+
+
+
+<!-- <!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <title>Calculadora de Média</title>
+
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f0f2f5;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+        }
+
+        .formulario {
+            background-color: white;
+            padding: 30px;
+            border-radius: 10px;
+            box-shadow: 0 0 10px rgba(0,0,0,0.2);
+            text-align: center;
+            width: 300px;
+        }
+
+        input {
+            width: 90%;
+            padding: 10px;
+            margin: 8px 0;
+            border: 1px solid #ccc;
+            border-radius: 5px;
+        }
+
+        button {
+            background-color: #007bff;
+            color: white;
+            padding: 12px 20px;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+            font-size: 16px;
+            margin-top: 10px;
+        }
+
+        button:hover {
+            background-color: #0056b3;
+        }
+
+        p {
+            font-size: 18px;
+            font-weight: bold;
+        }
+    </style>
+</head>
+
+<body>
+
+    <div class="formulario">
+
+        <h2>Boletim do Aluno</h2>
+
+        <form onsubmit="calcularMedia(event)">
+
+            <input type="text" id="nome" placeholder="Nome do aluno" required>
+
+            <input type="number" id="nota1" placeholder="Nota 1" min="0" max="10" step="any" required>
+
+            <input type="number" id="nota2" placeholder="Nota 2" min="0" max="10" step="any" required>
+
+            <input type="number" id="nota3" placeholder="Nota 3" min="0" max="10" step="any" required>
+
+            <button type="submit">Calcular Média</button>
+
+        </form>
+
+        <p id="resultado"></p>
+
+    </div>
+
+    <script>
+
+        function calcularMedia(event) {
+
+            event.preventDefault();
+
+            let nome = document.getElementById("nome").value;
+
+            let nota1 = Number(document.getElementById("nota1").value);
+
+            let nota2 = Number(document.getElementById("nota2").value);
+
+            let nota3 = Number(document.getElementById("nota3").value);
+
+            let media = (nota1 + nota2 + nota3) / 3;
+
+            let resultado = document.getElementById("resultado");
+
+            if (media >= 7) {
+
+                resultado.innerHTML = "Olá, " + nome + 
+                "! Você passou! Média: " + media.toFixed(2);
+
+                resultado.style.color = "green";
+
+            } else {
+
+                resultado.innerHTML = "Olá, " + nome + 
+                "! Você reprovou! Média: " + media.toFixed(2);
+
+                resultado.style.color = "red";
+
+            }
+
+        }
+
+    </script>
+
+</body>
+</html> -->
+
+
+
+
+
+<!-- 
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <title>Antecessor e Sucessor</title>
+
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f0f2f5;
+            text-align: center;
+            margin-top: 100px;
+        }
+
+        .container {
+            background-color: white;
+            width: 300px;
+            margin: auto;
+            padding: 30px;
+            border-radius: 10px;
+            box-shadow: 0 0 10px rgba(0,0,0,0.2);
+        }
+
+        input {
+            padding: 10px;
+            border: 1px solid #ccc;
+            border-radius: 5px;
+            width: 90%;
+            margin-bottom: 15px;
+        }
+
+        button {
+            background-color: #007bff;
+            color: white;
+            padding: 12px 20px;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+            font-size: 16px;
+        }
+
+        button:hover {
+            background-color: #0056b3;
+        }
+
+        p {
+            font-size: 18px;
+            font-weight: bold;
+        }
+    </style>
+</head>
+
+<body>
+
+    <div class="container">
+
+        <h2>Antecessor e Sucessor</h2>
+
+        <form onsubmit="calcular(event)">
+
+            <input type="number" id="numero"
+            placeholder="Digite um número" required>
+
+            <br>
+
+            <button type="submit">Calcular</button>
+
+        </form>
+
+        <p id="resultado"></p>
+
+    </div>
+
+    <script>
+
+        function calcular(event) {
+
+            event.preventDefault();
+
+            let numero = Number(document.getElementById("numero").value);
+
+            let antecessor = numero - 1;
+
+            let sucessor = numero + 1;
+
+            document.getElementById("resultado").innerHTML =
+                "Número digitado: " + numero +
+                "<br>Antecessor: " + antecessor +
+                "<br>Sucessor: " + sucessor;
+
+        }
+
+    </script>
+
+</body>
+</html> -->
+
+
+
+
+
+
+<!-- 
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <title>Contador</title>
+
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f0f2f5;
+            text-align: center;
+            margin-top: 100px;
+        }
+
+        .container {
+            background-color: white;
+            width: 300px;
+            margin: auto;
+            padding: 30px;
+            border-radius: 10px;
+            box-shadow: 0 0 10px rgba(0,0,0,0.2);
+        }
+
+        h1 {
+            font-size: 50px;
+            color: #333;
+        }
+
+        button {
+            padding: 12px 20px;
+            border: none;
+            border-radius: 8px;
+            color: white;
+            font-size: 16px;
+            cursor: pointer;
+            margin: 5px;
+        }
+
+        .incrementar {
+            background-color: green;
+        }
+
+        .incrementar:hover {
+            background-color: darkgreen;
+        }
+
+        .decrementar {
+            background-color: red;
+        }
+
+        .decrementar:hover {
+            background-color: darkred;
+        }
+    </style>
+</head>
+
+<body>
+
+    <div class="container">
+
+        <h2>Meu Contador</h2>
+
+        <h1 id="numero">0</h1>
+
+        <button class="incrementar" onclick="incrementar()">
+            + Incrementar
+        </button>
+
+        <button class="decrementar" onclick="decrementar()">
+            - Decrementar
+        </button>
+
+    </div>
+
+    <script>
+
+        let numero = 0;
+
+        function incrementar() {
+            numero = numero + 1;
+
+            document.getElementById("numero").innerHTML = numero;
+        }
+
+        function decrementar() {
+            numero = numero - 1;
+
+            document.getElementById("numero").innerHTML = numero;
+        }
+
+    </script>
+
+</body>
+</html> -->
+
+
+
+
+<!-- 
+
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <title>Jogo de Adivinhação</title>
+
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f0f2f5;
+            text-align: center;
+            margin-top: 100px;
+        }
+
+        .container {
+            background-color: white;
+            width: 320px;
+            margin: auto;
+            padding: 30px;
+            border-radius: 10px;
+            box-shadow: 0 0 10px rgba(0,0,0,0.2);
+        }
+
+        input {
+            padding: 10px;
+            width: 90%;
+            border: 1px solid #ccc;
+            border-radius: 5px;
+            margin-bottom: 15px;
+        }
+
+        button {
+            background-color: #007bff;
+            color: white;
+            padding: 12px 25px;
+            border: none;
+            border-radius: 8px;
+            font-size: 16px;
+            cursor: pointer;
+        }
+
+        button:hover {
+            background-color: #0056b3;
+        }
+
+        #resultado {
+            font-size: 18px;
+            font-weight: bold;
+            margin-top: 20px;
+        }
+    </style>
+</head>
+
+<body>
+
+    <div class="container">
+
+        <h2>Jogo de Adivinhação</h2>
+
+        <p>Digite um número entre 1 e 100:</p>
+
+        <input type="number" id="numero"
+        placeholder="Digite seu número" min="1" max="100" required>
+
+        <br>
+
+        <button onclick="sortearNumero()">Sortear Número</button>
+
+        <p id="resultado"></p>
+
+    </div>
+
+    <script>
+
+        function sortearNumero() {
+
+            let usuario = Number(document.getElementById("numero").value);
+
+            let sorteado = Math.floor(Math.random() * 100) + 1;
+
+            let resultado = document.getElementById("resultado");
+
+            if (usuario < 1 || usuario > 100 || document.getElementById("numero").value === "") {
+
+                resultado.innerHTML = "Digite um número entre 1 e 100!";
+
+                resultado.style.color = "red";
+
+            } 
+            else if (usuario == sorteado) {
+
+                resultado.innerHTML = "Número Sorteado: " + sorteado +
+                "<br>Parabéns, você acertou!";
+
+                resultado.style.color = "green";
+
+            } 
+            else {
+
+                resultado.innerHTML = "Número Sorteado: " + sorteado +
+                "<br>Infelizmente, você errou. Tente novamente!";
+
+                resultado.style.color = "red";
+
+            }
+
+        }
+
+    </script>
+
+</body>
+</html> -->
+
+
+
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculadora de IMC</title>
+
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            font-family: Arial, sans-serif;
+        }
+
+        body {
+            background: linear-gradient(135deg, #667eea, #764ba2);
+            min-height: 100vh;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            padding: 20px;
+        }
+
+        .container {
+            background: white;
+            width: 100%;
+            max-width: 400px;
+            padding: 35px;
+            border-radius: 20px;
+            box-shadow: 0 10px 30px rgba(0,0,0,0.2);
+            text-align: center;
+        }
+
+        h1 {
+            color: #333;
+            margin-bottom: 10px;
+        }
+
+        .descricao {
+            color: #777;
+            margin-bottom: 25px;
+        }
+
+        .campo {
+            text-align: left;
+            margin-bottom: 20px;
+        }
+
+        label {
+            display: block;
+            margin-bottom: 8px;
+            color: #444;
+            font-weight: bold;
+        }
+
+        input {
+            width: 100%;
+            padding: 13px;
+            border: 2px solid #ddd;
+            border-radius: 10px;
+            font-size: 16px;
+            outline: none;
+            transition: 0.3s;
+        }
+
+        input:focus {
+            border-color: #667eea;
+        }
+
+        button {
+            width: 100%;
+            padding: 14px;
+            background: linear-gradient(135deg, #667eea, #764ba2);
+            color: white;
+            border: none;
+            border-radius: 10px;
+            font-size: 17px;
+            font-weight: bold;
+            cursor: pointer;
+            transition: 0.3s;
+        }
+
+        button:hover {
+            transform: translateY(-2px);
+            opacity: 0.9;
+        }
+
+        #resultado {
+            margin-top: 25px;
+            font-size: 18px;
+            font-weight: bold;
+            color: #667eea;
+        }
+    </style>
+</head>
+
+<body>
+
+    <div class="container">
+
+        <h1>Calculadora de IMC</h1>
+
+        <p class="descricao">
+            Descubra seu Índice de Massa Corporal!
+        </p>
+
+        <form id="formulario">
+
+            <div class="campo">
+                <label for="peso">Peso (kg)</label>
+                <input
+                    type="number"
+                    id="peso"
+                    placeholder="Ex: 70"
+                    step="any"
+                    min="0"
+                    required
+                >
+            </div>
+
+            <div class="campo">
+                <label for="altura">Altura (m)</label>
+                <input
+                    type="number"
+                    id="altura"
+                    placeholder="Ex: 1.75"
+                    step="any"
+                    min="0"
+                    required
+                >
+            </div>
+
+            <button type="submit">Calcular IMC</button>
+
+        </form>
+
+        <p id="resultado"></p>
+
+    </div>
+
+    <script>
+        const formulario = document.getElementById("formulario");
+
+        formulario.addEventListener("submit", function(event) {
+
+            event.preventDefault();
+
+            // Obtendo os valores dos campos
+            const peso = parseFloat(
+                document.getElementById("peso").value
+            );
+
+            const altura = parseFloat(
+                document.getElementById("altura").value
+            );
+
+            // Verificando os valores
+            if (peso <= 0 || altura <= 0 ||
+                !Number.isFinite(peso) ||
+                !Number.isFinite(altura)) {
+
+                document.getElementById("resultado").textContent =
+                    "Digite valores válidos!";
+
+                return;
+            }
+
+            // Calculando o IMC
+            const imc = peso / (altura * altura);
+
+            // Exibindo o resultado
+            document.getElementById("resultado").textContent =
+                "Seu IMC é: " + imc.toFixed(1);
+
+        });
+    </script>
+
+</body>
+</html>
+

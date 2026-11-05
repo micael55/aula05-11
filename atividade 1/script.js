@@ -1,0 +1,5 @@
+function mostrarAlerta() {
+    alert("Você clicou no botão!");
+}
+
+document.getElementById("meuBotao").addEventListener("click", mostrarAlerta);
